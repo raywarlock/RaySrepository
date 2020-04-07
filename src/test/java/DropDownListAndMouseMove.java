@@ -29,7 +29,7 @@ public class DropDownListAndMouseMove {
 
     @Test
     public void Test() {
-        dropDownList(); // test1 - action with dropdown list
+        dropDownList(); // test1 - action with dropdown list. version 2
         mouseMove(); // test3 - actions with mouse movements
     }
 
