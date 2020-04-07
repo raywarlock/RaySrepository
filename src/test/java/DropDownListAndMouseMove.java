@@ -16,20 +16,20 @@ public class DropDownListAndMouseMove {
     WebDriver driver;
     String path = "https://the-internet.herokuapp.com/dropdown";
 
-    @BeforeSuite
+    @BeforeSuite // settings
     public void Setup(){
         System.setProperty("webdriver.edge.driver", "C:\\Users\\Owner\\IdeaProjects\\untitled3\\src\\test\\resources\\msedgedriver.exe");
         driver = new EdgeDriver();
     }
 
-    @AfterTest
+    @AfterTest // close the browser after test
     public void Quit() {
         driver.quit();
     }
 
     @Test
     public void Test() {
-        dropDownList(); // test1 - action with dropdown list. version 2
+        dropDownList(); // test1 - action with dropdown list
         mouseMove(); // test3 - actions with mouse movements
     }
 
