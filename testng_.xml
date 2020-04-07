@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Test Suite" verbose="1" >
+    <test name="Method Test Cases" >
+        <classes>
+            <class name="FindByXPathPt2">
+                <methods>
+                    <include name="XpathContains"/>
+                    <exclude name="XpathStartsWith"/>
+                    <include name="XpathText" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test Cases" >
+        <classes>
+            <class name="ForTestNGXmlExamle">
+            <methods>
+                <include name="testTest001"/>
+                <exclude name="testTest002"/>
+                <include name="testTest003"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
