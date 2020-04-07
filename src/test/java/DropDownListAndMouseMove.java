@@ -30,7 +30,7 @@ public class DropDownListAndMouseMove {
     @Test
     public void Test() {
         dropDownList(); // test1 - action with dropdown list
-        mouseMove(); // test3 - actions with mouse movements and verification
+        mouseMove(); // test3 - actions with mouse movements
     }
 
     public void mouseMove() {
