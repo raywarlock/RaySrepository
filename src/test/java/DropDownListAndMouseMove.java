@@ -16,13 +16,13 @@ public class DropDownListAndMouseMove {
     WebDriver driver;
     String path = "https://the-internet.herokuapp.com/dropdown";
 
-    @BeforeSuite // settings
+    @BeforeSuite // browser settings
     public void Setup(){
         System.setProperty("webdriver.edge.driver", "C:\\Users\\Owner\\IdeaProjects\\untitled3\\src\\test\\resources\\msedgedriver.exe");
         driver = new EdgeDriver();
     }
 
-    @AfterTest // close the browser after test
+    @AfterTest // quit the browser after test
     public void Quit() {
         driver.quit();
     }
