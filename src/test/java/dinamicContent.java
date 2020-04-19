@@ -38,6 +38,18 @@ public class dinamicContent {
     }
 
     public void compareImgs() {
+        for (i = 1; i < imgListSizeBeforeRfrsh; i++) {
+            if(imgAttrbtsBeforeRfrsh[i].equals(imgAttrbtsAfterRfrsh[i]))
+                System.out.println("image " + i + " is the same after refresh");
+            else
+                System.out.println("image " + i + " has been changed after refresh");
+        }
+        for (i = 1; i < txtListSizeBeforeRfrsh; i++) {
+            if(txtAttrbtsBeforeRfrsh[i].equals(txtAttrbtsAfterRfrsh[i]))
+                System.out.println("text " + i + " is the same after refresh");
+            else
+                System.out.println("text " + i + " has been changed after refresh");
+        }
 
     }
 
