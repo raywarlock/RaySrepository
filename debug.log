@@ -31,3 +31,8 @@
 [0418/221523.939:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
 [0418/221959.557:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
 [0418/223925.384:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0418/224230.406:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0418/224615.674:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0418/224655.173:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0419/171350.564:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0419/220834.456:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
