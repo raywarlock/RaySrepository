@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="ResumeBuilderTest" >
+        <parameter name="LoginParameter"  value="ray_warlock"/>
+        <parameter name="PasswordParameter"  value="Nl21_nov16"/>
+        <classes>
+            <class name="ResumeBuilderTest1Login">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ResumeBuilderTest2" >
+        <parameter name="LoginParameter"  value="ray_warlockk"/>
+        <parameter name="PasswordParameter"  value="Nl21_nov16"/>
+        <classes>
+            <class name="ResumeBuilderTest1Login">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ResumeBuilderTest3" >
+        <parameter name="LoginParameter"  value="ray_warlock"/>
+        <parameter name="PasswordParameter"  value="Nl21_nov166"/>
+        <classes>
+            <class name="ResumeBuilderTest1Login">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ResumeBuilderTest4" >
+        <parameter name="LoginParameter"  value="ray_warlock"/>
+        <parameter name="PasswordParameter"  value="Nl21_nov16"/>
+        <classes>
+            <class name="ResumeBuilderTest1Login">
+                <methods>
+                    <include name="Test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
